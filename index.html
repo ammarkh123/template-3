@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Arvo&family=Encode+Sans+Semi+Condensed:wght@400;500;700&family=Open+Sans:wght@400;500;600;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700;900&family=Varela+Round&family=Work+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- start navbar  -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="true" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="main">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item d-block">
+          <a class="nav-link active p-2 p-lg-3" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item text-primary">
+          <a class="nav-link p-2 p-lg-3" href="#Services">services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#Portfolio">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#About">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" href="#Contact">contact</a>
+        </li>
+      </ul><!--./navbar-nav-->
+      <div class="search ps-3 pe-3 d-none d-lg-block">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div><!--./search-->
+      <div class="login">
+        <button type="button" class="main-btn btn rounded-pill">login</button>
+      </div><!--./login-->
+    </div>
+  </div>
+</nav>
+<!-- end navbar -->
+<!-- start landing -->
+<div class="landing d-flex justify-content-center align-items-center text-light" id="Home">
+  <div class="text-center">
+    <h1 class="fw-normal fs-1">Taste the Creativity</h1>
+    <p class="text-white-50 fs-6 mt-1">We make awesome graphic and web design</p>
+    <button type="button" class="main-btn btn rounded-pill mt-3">Get Started</button>
+  </div>
+</div>
+<!-- end landing -->
+<!-- start services -->
+<div class="services py-5 " id="Services">
+  <div class="container">
+    <div class="main-head text-center pt-5 pb-2 position-relative mx-auto mb-7">
+      <img src="img/title.png" alt="head image">
+      <h2 class="text-capitalize mt-3">we are good at</h2>
+      <p class="text-uppercase text-black-50 mb-2">some of these stuff under</p>
+      <span class="mx-auto my-0 d-block"></span>
+    </div><!--./main-head-->
+    <div class="row services-content">
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon position-relative py-5 mb-4">
+          <i class="fa-solid fa-1 position-absolute text-50 bottom-0 number"></i>
+          <i class="fa fa-pencil position-absolute bottom-0 number"></i>
+        </div>
+        <h3 class="text-uppercase">graphic design</h3>
+        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon position-relative py-5 mb-4">
+          <i class="fa-solid fa-2 position-absolute text-50 bottom-0 number"></i>
+          <i class="fa fa-tv position-absolute bottom-0 number"></i>
+        </div>
+        <h3 class="text-uppercase">web design</h3>
+        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon position-relative py-5 mb-4">
+          <i class="fa-solid fa-3 position-absolute text-50 bottom-0 number"></i>
+          <i class="fa fa-plug position-absolute bottom-0 number"></i>
+        </div>
+        <h3 class="text-uppercase">app design</h3>
+        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+      </div>     
+    </div>
+  </div>
+</div>
+<!-- end services -->
+<!-- start our Works -->
+<div class="our-works py-5 text-center" id="Portfolio">
+  <div class="container">
+    <div class="main-head text-center pt-5 pb-2 position-relative mx-auto mb-7">
+      <img src="img/title.png" alt="head image">
+      <h2 class="text-uppercase mt-3">we make this</h2>
+      <p class="text-uppercase text-black-50 mb-2">prepare to be amazed</p>
+      <span class="mx-auto my-0 d-block"></span>
+    </div><!--./main-head-->
+    <ul class="list-unstyled d-flex my-5 text-uppercase">
+      <li class="active rounded-pill py-2 px-3">all</li>
+      <li>design</li>
+      <li>code</li>
+      <li>photo</li>
+      <li>app</li>
+    </ul>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-01.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-02.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-03.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-04.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-05.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-06.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-07.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box bg-white mb-2" data-work="application">
+          <img class="img-fluid" src="img/work-08.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <button class="main-btn my-5 mx-auto px-3 py-2 rounded-pill text-uppercase">see more</button>
+  </div>
+</div>
+<!-- end our Works -->
+<!-- start about -->
+<div class="about pt-3 mb-0" id="About">
+  <div class="container">
+    <div class="main-head text-center pt-5 pb-2 position-relative mx-auto mb-5">
+      <img src="img/title.png" alt="head image">
+      <h2 class="text-uppercase mt-3">Some Stuff About Us</h2>
+      <p class="text-uppercase text-black-50 mb-2">the great team</p>
+      <span class="mx-auto my-0 d-block"></span>
+    </div><!--./main-head-->
+    <p class="w-50 mx-auto text-black-50 lh-baise mt-3 text-center">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+    <div class="row mt-5 container-fluid">
+      <div class="about-text col-md-12 col-sm-12 col-lg-4 py-5">
+        <div class="about-text text-right text-capitalize">
+          <h3 class="head my-3">Retina Design</h3>
+          <p class=" lh-baise">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+          <p class=" lh-baise">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.          </p>
+          <button class="main-btn mt-2 px-3 py-2 rounded-pill text-uppercase">order me one</button>
+        </div>
+      </div>
+      <div class="aout-image col-md-12 col-sm-12 col-lg-8 mx-auto">
+        <div class="image mx-auto">
+          <img class="img-fluid" src="img/laptop.png" alt="laptop">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end about -->
+<!-- start team -->
+<div class="team py-5" id="Contact">
+  <div class="container">
+    <div class="main-head text-center pt-5 pb-2 position-relative mx-auto mb-5">
+      <h2 class="text-capitalize fw-bold mt-3">Meet The Team</h2>
+      <p class="text-capitalize text-black-50 mb-2">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+    </div><!--./main-head-->
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <img class="img-fluid" src="img/team-1.png" alt="">
+        </div>
+        <p class="text text-black-50 text-center">“I don't understand how we got by those troops. I thought we were dead.“</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <img class="img-fluid" src="img/team-2.png" alt="">
+        </div>
+        <p class="text text-black-50 text-center">“I don't understand how we got by those troops. I thought we were dead.“</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <img class="img-fluid" src="img/team-3.png" alt="">
+        </div>
+        <p class="text text-black-50 text-center">“I don't understand how we got by those troops. I thought we were dead.“</p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <img class="img-fluid" src="img/team-4.png" alt="">
+        </div>
+        <p class="text text-black-50 text-center">“I don't understand how we got by those troops. I thought we were dead.“</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end team -->
+<!-- start techectures -->
+<div class="tech">
+  <div class="container">
+    <div class="row py-5 text-center">
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-2.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-3.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-4.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-2 p-3">
+        <div class="box">
+        <img src="img/tech-2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end techectures -->
+<!-- start your project -->
+<div class="start-project py-5">
+  <div class="container">
+    <div class="main-head text-center pt-5 pb-2 mx-auto mb-5">
+      <h2 class="text-capitalize fw-bold mt-3 text-white">start your project now</h2>
+      <p class="text-capitalize text-white-50 mb-2">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+      <button class="main-btn px-3 py-2 rounded-pill text-uppercase mt-5">start project</button>
+    </div><!--./main-head-->
+  </div>
+</div>
+<!-- end your project -->
+<!-- start blogs -->
+<div class="our-blogs py-5">
+  <div class="container text-center">
+    <div class="main-head text-center pt-5 pb-2 position-relative mx-auto mb-7">
+      <img src="img/title.png" alt="head image">
+      <h2 class="text-uppercase mt-3 text-black">read our blogs</h2>
+      <p class="text-uppercase text-black-50 mb-2">new stories</p>
+      <span class="mx-auto my-0 d-block"></span>
+    </div><!--./main-head-->
+    <div class="row py-5">
+      <div class="col-sm-12 col-md-6 col-lg-4 d-grid gap-3">
+        <div class="box border border-2">
+          <img class="img-fluid" src="img/blog-1.jpg" alt="">
+          <p class="date text-black-50 pt-3 px-3 mb-0">Jan 17, 2022</p>
+          <p class="detail text-black fs-5 fw-bold px-3 pb-2">Some Awesome Blog Title Here</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 d-grid gap-3">
+        <div class="box border border-2">
+          <img class="img-fluid" src="img/blog-2.jpg" alt="">
+          <p class="date text-black-50 pt-3 px-3 mb-0">Jan 17, 2022</p>
+          <p class="detail text-black fs-5 px-3 fw-bold pb-2">Some Awesome Blog Title Here</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 d-grid gap-2">
+        <div class="box border border-2">
+          <img class="img-fluid" src="img/blog-3.jpg" alt="">
+          <p class="date text-black-50 pt-3 px-3 mb-0">Jan 17, 2022</p>
+          <p class="detail text-black fs-5 fw-bold pb-2 px-3 ">Some Awesome Blog Title Here</p>
+        </div>
+      </div>
+    </div>
+    <button class="main-btn px-3 py-2 rounded-pill text-uppercase">more stories</button>
+  </div>
+</div>
+<!-- end blogs -->
+<!-- start subscribe -->
+<div class="subscribe py-5">
+  <div class="container">
+    <div class="row">
+      <form action="mailto:a" class="p-0 border-0 mg-0 d-flex">
+        <label for="colFormLabelLg" class="mt-1 col-sm-3 col-form-label col-form-label-lg fw-bold fs-4">Subscribe to our Newsletter:</label>
+        <div class="col-sm-8">
+          <input type="email" class="form-control-lg rounded-0 fw-bold outline-0" id="colFormLabelLg" placeholder="enter your email address" required>
+          <a href="mailto:aaaa123@gmail.com">
+            <input type="submit" value="subscribe" class="mt-2 px-3 py-2 rounded-pill text-uppercase border-0">
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- end subscribe -->
+<!-- start footer -->
+<div class="footer pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="content col-sm-12 col-md-6 col-lg-4">
+        <div class="box text-capitalize text-right">
+          <img class="mb-3" src="img/logo.png" alt="logo">
+          <p class="text text-white-50 mb-5">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+          <p class="created-by w-49 mb-2 text-white-50">Created By <span class="one">Graphberry</span> © 2022 - <span class="two">Bondi Ink</span></p>
+          <p class="coded-by w-49 text-white-50">coded by <span class="two">Ammar khatab</span> © 2022</p>
+        </div>
+      </div>
+      <div class="content col-sm-12 col-md-6 col-lg-2">
+        <div class="box text-capitalize text-right">
+          <ul class="list-unstyled text-capitalize text-white-50">
+            <li class="head text-white mb-3 mb-4 fw-bold fs-5">links</li>
+            <li class="mb-2 ">home</li>
+            <li class="mb-2 ">our services</li>
+            <li class="mb-2 ">portfolio</li>
+            <li class="mb-2 ">testimonials</li>
+            <li class="mb-2 ">support</li>
+            <li class="mb-2 ">team and condition</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content col-sm-12 col-md-6 col-lg-2">
+        <div class="box text-capitalize text-right">
+          <ul class="list-unstyled text-capitalize text-white-50">
+            <li class="head text-white mb-4 fw-bold fs-5">About Us</li>
+            <li class="mb-2 ">Sign in</li>
+            <li class="mb-2 ">Register</li>
+            <li class="mb-2 ">About us</li>
+            <li class="mb-2 ">Blog</li>
+            <li class="mb-2 ">contact us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content col-sm-12 col-md-6 col-lg-4">
+        <div class="box text-capitalize text-right">
+            <p class="head text-white mb-4 fw-bold fs-5">About Us</p>
+            <p class="mb-5 text-white-50">Get in touch with us via mail phone.We are waiting for your call or message</p>
+            <button class="rounded-pill w-100 main-btn py-2 px-3">Graphberry@gmail.com</button>
+            <ul class="socail-media list-unstyled text-capitalize text-white-50 d-flex mt-3 align-items-center justify-content-center">
+              <li class="p-2 rounded-50">
+                <a href="https://facebook.com"><i class="facebook fa-brands fa-facebook fa-2x"></i></a>
+              </li>
+              <li class="p-2">
+                <a href="https://youtube.com"><i class="youtube fa-brands fa-youtube fa-2x"></i></a>
+              </li>
+              <li class="p-2 ">
+                <a href="https://linkedin.com"><i class="linkedin fa-brands fa-linkedin fa-2x"></i></a>
+              </li>
+              <li class="p-2">
+                <a href="https://twitter.com"><i class="twitter fa-brands fa-twitter fa-2x"></i></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end footer -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+</body>
+</html>

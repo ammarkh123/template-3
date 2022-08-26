@@ -1,0 +1,285 @@
+:root{
+    --dark-color:  #19283f;
+    --green-color:  #33d1cc;
+    --red-color:  #ff3150;
+    --yellow-color:  #ffc400;
+    --section-color:  #eff7fa;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* start general */
+.main-head .main-icon{
+    font-size: 50px;
+    color: var(--yellow-color);
+}
+.main-head span{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 2px;
+    width: 120px;
+    background-color: var(--green-color);
+}
+/* end general */
+/* start components */
+.main-btn{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    border: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.main-btn:hover{
+    color: var(--dark-color);
+}
+/* end components */
+/* start nav bar  */
+.navbar{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.navbar .navbar-brand{
+    color: var(--red-color);
+}
+.navbar .collapse ul .nav-item{
+    color: #fff;
+}
+.navbar .collapse ul .nav-item .nav-link{
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: var(--green-color);
+}
+.navbar .collapse .search {
+    border-left: 1px solid var(--green-color);
+}
+.navbar .collapse .search svg{
+    color: var(--green-color);
+}
+.navbar .navbar-toggler{
+    color: #fff;
+    font-size: 25px;
+    border: 2px solid #fff;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"]{
+    border-color: var(--green-color);
+}
+/* end nav bar  */
+/* start landing */
+.landing{
+    background-color: var(--dark-color);
+    height: calc(100vh - 72px);
+}
+/* end landing */
+/* start services */
+.services .services-content .icon{
+    height: 200px;
+}
+.services .services-content h3{
+    color: var(--green-color);
+}
+.services .container .services-content .icon svg:first-child{
+    font-size: 180px;
+    color:  var(--section-color);
+}
+.services .container .services-content .icon svg:last-child{
+    font-size: 60px;
+    color: var(--green-color);
+}
+.services .container .services-content .icon .number{
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+/* end services */
+/* start our works */
+.our-works{
+    background-color: var(--section-color);
+}
+.our-works ul{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.our-works ul li{
+    padding: .5rem 1rem;
+}
+.our-works ul .active{
+   background-color: var(--red-color);
+   color: #fff;
+}
+.our-works ul li:hover:not(.active){
+   color: var(--red-color);
+}
+.our-works .row .box{
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+}
+.our-works .row .box:after{
+    content: attr(data-work);
+    position: absolute;
+    top: 5px;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 221, .6);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(calc(-100% - 5px));
+    -webkit-transform: translateX(calc(-100% - 5px));
+    -moz-transform: translateX(calc(-100% - 5px));
+    -ms-transform: translateX(calc(-100% - 5px));
+    -o-transform: translateX(calc(-100% - 5px));
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: 10;
+}
+.our-works .row .box:hover:after{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+/* end our works */
+/* start about */
+@media (max-width: 1170px) {
+    .about .container{
+        width: 100%;
+    }
+}
+/* end about */
+/* start team */
+.team{
+    background-color: var(--section-color);
+}
+.team .container .main-head h2{
+    color: var(--yellow-color);
+}
+.team .row .box{
+    position: relative;
+    padding-bottom: 50px;
+}
+.team .row .box{
+    position: relative;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+.team .row .box:after{
+    content: "Luke Skywalker";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    padding: 15px 10px;
+    color: #fff;
+    font-size: 25px;
+    background-color: var(--green-color);
+    text-align: center;
+    font-weight: bold;
+}
+.team .row .text{
+    padding: 15px;
+    background-color: #fff;
+}
+/* end team */
+/* start your project */
+.start-project{
+    background-color: var(--dark-color);
+}
+/* end your project */
+/* start subscribe */
+.subscribe{
+    background-color: var(--yellow-color);
+}
+.subscribe label{
+    color: var(--dark-color);
+    padding-right: 0;
+    margin-right: 0;
+}
+.subscribe .row input[type="email"]{
+    background-color: var(--yellow-color);
+    outline: 0px!important;
+    color: #fff;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px solid;
+    border-left: 0;
+    border-color: #fff;
+    margin-left: 0;
+    width: 80%;
+}
+.subscribe .row input[type="email"]::placeholder{
+    color: #fff;
+}
+.subscribe .row input[type="submit"]{
+    background-color: var(--dark-color);
+    border: 0;
+    color: var(--yellow-color);
+}
+/* end subscribe */
+/* start footer  */
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .row p span.one{
+    color: var(--green-color);
+}
+.footer .row p span.two{
+    color: var(--red-color);
+}
+.footer .facebook,
+.footer .youtube,
+.footer .linkedin,
+.footer .twitter{
+    padding: 3px;
+    background-color: var(--dark-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.footer .facebook{
+    color: rgb(0, 94, 255);
+}
+.footer .youtube{
+    color: var(--red-color);
+}
+.footer .linkedin{
+    color: #00a6ff;
+}
+.footer .twitter{
+    color: #16a1f2;
+}
+@media (max-width: 768px) {
+    .footer .container .row{
+        text-align: center;
+    }
+}
+/* end footer  */
